@@ -1,3 +1,5 @@
+//Permutation Solution Of CSES Problem
+
 #include <bits/stdc++.h>
 #define ll long long
 #define endl '\n'
@@ -21,6 +23,13 @@ int main()
              cout<<i<<" ";
          }
      }
-    --
+    rep(i,n) 
+    { 
+     if(i%2!=0) 
+     { 
+      cout<<i<<" "; 
+     }
+    }
+     }
     return 0;
 }
